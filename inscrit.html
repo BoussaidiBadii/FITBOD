@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FITNESS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section>
+    <header>
+      <a href="./home.html" class="logo">Fitness</a>
+      <ul class="navigation">
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./inscrit.html">Sign-up</a></li>
+      </ul>
+    </header>
+    <form  method="GET" >
+      <font color="white">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Your name" required>
+        </div>
+        <div>
+          <label for="email">E-mail</label>
+          <input id="email" type="email" placeholder="Your E-mail" required>
+        </div>
+        <div>
+          <label for="email">Age</label>
+          <input id="age" value="age" type="number" placeholder="Your age" required>
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Your password" required>
+        </div>
+        <div>
+          <label for="cpassword">Confirm Password</label>
+          <input id="cpassword" type="password" placeholder="Confirm your password" required>
+        </div>
+        <center>
+          <input type="button" value="Register" id="submit" onclick="validate()">
+        </center>
+    </form>
+    </font>
+  </section>
+</body>
+<script src="./script.js">  </script>
+</html>
